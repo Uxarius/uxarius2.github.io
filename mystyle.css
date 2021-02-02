@@ -1,0 +1,133 @@
+
+
+body {
+ background-color: #eae2b7;
+}
+
+#frame {
+font-family: arial;
+color: #003049;
+font-size: 30px
+}
+
+table {
+text-align: center;
+background-color: #eae2b7;
+cellpadding: 2px;
+}
+
+caption {
+text-align: center;
+font-family: arial;
+font-size: 20px;
+color: #003049
+}
+
+tr {
+width: 1000px;
+height: 40px
+}
+
+td {
+width: 244px
+}
+
+div.galeria {
+width: 880px;
+
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 5px;
+border-color: #003049
+}
+
+h2 {
+font-family: arial;
+font-size: 35px;
+color: #003049
+}
+
+iframe {
+width: 560px;
+height: 315px;
+}
+
+p {
+text-align: justify;
+width: 500px;
+font-size: 22px;
+font-family: arial;
+color: #003049
+}
+
+table.galeria {
+background-color: #003049;
+text-align: center;
+border: 0px;
+border-spacing: 0px;
+border-padding: 0px
+}
+
+td.galeria {
+color: #fcbf49;
+text-align: center;
+height: 100px;
+font-size: 30px;
+background-color: #003049;
+font-family: arial
+}
+
+
+td.galeria2 {
+text-align: center;
+height: 430px;
+background-color: #eae2b7
+}
+
+img.galeria {
+width: 288px;
+height 162px
+}
+
+img.mlask {
+width: 560px;
+
+}
+img.thisguy {
+width: 850px;
+
+}
+
+tr.galeria {
+font-family: arial;
+font-size: 18px;
+color: #003049
+}
+
+#dataLayer {
+;
+    visibility: visible;
+    font-family: arial;
+font-size: 22px;
+font-weight:bold;
+color: #003049;
+    top: 20;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="komputer, IT" content="Zastosowania komputerów">
+    <title>Zastosowania komputerów</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+function wyswietlDane()
+{
+  var data = new Date();
+  var godziny = data.getHours();
+  var minuty = data.getMinutes();
+  var sekundy = data.getSeconds();
+  var czas = godziny;
+  czas += ((minuty < 10) ? ":0" : ":") + minuty;
+  czas += ((sekundy < 10) ? ":0" : ":") + sekundy;
+  var miesiac = data.getMonth() + 1;
+  if (miesiac < 9){
+    miesiac = "0" + miesiac;
+  }
+  var dzien = data.getDate();
+  if (dzien < 9){
+    dzien = "0" + dzien;
+  }
+  var rok = data.getYear();
+  if (rok < 1000){
+    rok = 2000 + rok - 100;
+  }
+  var dzisiaj = dzien + "." + miesiac + "." + rok;
+
+  var dzienTygodnia = data.getDay();
+  switch(dzienTygodnia){
+    case 0: dzienTygodnia = "niedziela"; break;
+    case 1: dzienTygodnia = "poniedziałek"; break;
+    case 2: dzienTygodnia = "wtorek"; break;
+    case 3: dzienTygodnia = "środa"; break;
+    case 4: dzienTygodnia = "czwartek"; break;
+    case 5: dzienTygodnia = "piątek"; break;
+    case 6: dzienTygodnia = "sobota"; break;
+  }
+
+  var tekst = "Dziś jest " + dzienTygodnia + ", " + dzisiaj;
+  tekst += "<BR>";
+  tekst += czas;
+  document.getElementById("dataLayer").innerHTML = tekst;
+  timerID = setTimeout("wyswietlDane()",1000);
+}
+</SCRIPT>
+</HEAD>
+<center>
+<BODY onLoad="wyswietlDane()" bgcolor="Gainsboro">
+<div id="dataLayer">
+</div>
+</body>
+</br>
+
+
+<table id="dupa">
+<caption><b>Choose the subsite</b></br></caption>
+
+<tr>
+<td><a href="trafficlights.html" target="podstrony"><img src=hrefpic1.jpg onMouseOut="this.src='hrefpic1.jpg'" onMouseOver="this.src='hrefpic1v.jpg'"; onClick="this.src='hrefpic1v.jpg'"></td>
+<td><a href="Implant prosthetics.html" target="podstrony"><img src=hrefpic2.jpg onMouseOut="this.src='hrefpic2.jpg'" onMouseOver="this.src='hrefpic2v.jpg'"; onClick="this.src='hrefpic2v.jpg'"></td>
+<td><a href="3Dprinting.html" target="podstrony"><img src=hrefpic3.jpg onMouseOut="this.src='hrefpic3.jpg'" onMouseOver="this.src='hrefpic3v.jpg'"; onClick="this.src='hrefpic3v.jpg'"></td>
+<td><a href="vehiclepc.html" target="podstrony"><img src=hrefpic4.jpg onMouseOut="this.src='hrefpic4.jpg'" onMouseOver="this.src='hrefpic4v.jpg'"; onClick="this.src='hrefpic4v.jpg'"></td>
+<td><a href="medicaldiagnostics.html" target="podstrony"><img src=hrefpic5.jpg onMouseOut="this.src='hrefpic5.jpg'" onMouseOver="this.src='hrefpic5v.jpg'"; onClick="this.src='hrefpic5v.jpg'"></td>
+</tr>
+
+<tr>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic6.jpg onMouseOut="this.src='hrefpic6.jpg'" onMouseOver="this.src='hrefpic6v.jpg'"; onClick="this.src='hrefpic6v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic7.jpg onMouseOut="this.src='hrefpic7.jpg'" onMouseOver="this.src='hrefpic7v.jpg'"; onClick="this.src='hrefpic7v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic8.jpg onMouseOut="this.src='hrefpic8.jpg'" onMouseOver="this.src='hrefpic8v.jpg'"; onClick="this.src='hrefpic8v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic9.jpg onMouseOut="this.src='hrefpic9.jpg'" onMouseOver="this.src='hrefpic9v.jpg'"; onClick="this.src='hrefpic9v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic10.jpg onMouseOut="this.src='hrefpic10.jpg'" onMouseOver="this.src='hrefpic10v.jpg'"; onClick="this.src='hrefpic10v.jpg'"></td>
+</tr>
+
+<tr>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic11.jpg onMouseOut="this.src='hrefpic11.jpg'" onMouseOver="this.src='hrefpic11v.jpg'"; onClick="this.src='hrefpic11v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic12.jpg onMouseOut="this.src='hrefpic12.jpg'" onMouseOver="this.src='hrefpic12v.jpg'"; onClick="this.src='hrefpic12v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic13.jpg onMouseOut="this.src='hrefpic13.jpg'" onMouseOver="this.src='hrefpic13v.jpg'"; onClick="this.src='hrefpic13v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic14.jpg onMouseOut="this.src='hrefpic14.jpg'" onMouseOver="this.src='hrefpic14v.jpg'"; onClick="this.src='hrefpic14v.jpg'"></td>
+<td><a href="error404.html" target="podstrony"><img src=hrefpic15.jpg onMouseOut="this.src='hrefpic15.jpg'" onMouseOver="this.src='hrefpic15v.jpg'"; onClick="this.src='hrefpic15v.jpg'"></td>
+</tr>
+
+</table>
+</center>
+</br>
+</body>
+</center>
+</html>
+
